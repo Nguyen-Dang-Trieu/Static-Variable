@@ -29,5 +29,5 @@ Hiển thị ra màn hình:
 - `Biến toàn cục (Global variable)`: Đây là biến được khai báo bên ngoài bất kì hàm nào và có thể truy cập mọi nơi trong chương trình. Biến toàn cục tồn tại suốt thời gian chạy của chương trình và `có thể sửa chữa giá trị từ bất kì hàm nào` => điều này dẫn đến việc quản lí dữ liệu.
 - `Biến static`: Đây là biến được khai báo trong hàm hoặc khối mã, tồn tại trong suốt thời gian mà chương trình chạy. Tuy nhiên, `phạm vi của biến static chỉ nằm trong hàm và khối mã đã khai báo` => điều này có nghĩa rằng biến static không thể truy cập ngoài hàm và khối mã đó.
 
-#Storage
-#
+# Storage
+![Logo của dự án]([./Images/Static.png](https://github.com/Nguyen-Dang-Trieu/Static-Variable/tree/main/Images)https://github.com/Nguyen-Dang-Trieu/Static-Variable/tree/main/Images)
