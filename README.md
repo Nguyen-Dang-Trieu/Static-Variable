@@ -30,4 +30,6 @@ Hiển thị ra màn hình:
 - `Biến static`: Đây là biến được khai báo trong hàm hoặc khối mã, tồn tại trong suốt thời gian mà chương trình chạy. Tuy nhiên, `phạm vi của biến static chỉ nằm trong hàm và khối mã đã khai báo` => điều này có nghĩa rằng biến static không thể truy cập ngoài hàm và khối mã đó.
 
 # Storage
-![Logo của dự án]([./Images/Static.png](https://github.com/Nguyen-Dang-Trieu/Static-Variable/tree/main/Images)https://github.com/Nguyen-Dang-Trieu/Static-Variable/tree/main/Images)
+Trong C, biến Static được lưu ở BSS hoặc DATA.
+
+![Logo của dự án](./Images/Static.png)
