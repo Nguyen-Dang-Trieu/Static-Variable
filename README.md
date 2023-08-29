@@ -32,4 +32,4 @@ Hiển thị ra màn hình:
 # Storage
 Trong C, biến Static được lưu ở BSS hoặc DATA.
 
-![Logo của dự án](./Images/Static.png)
+![](./Images/Static.png)
