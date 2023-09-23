@@ -126,6 +126,45 @@ Static functions are restricted to the file in which they are created, and canno
 - It is used to limit the scope of a function in a C program.
 - It is used for reusing the same function name in other files.
 
+# Static pointer
+~~~cpp
+#include <stdio.h>
+
+void foo(){
+int a = 10, b = 20;     
+static int *c; //static pointer variable declaration
+//re-declaration is not done in case of static variables
+
+if(c == NULL) // kiểm tra con trỏ có đang trỏ tới NULL hay không ?
+    c = &a; 
+else
+    c = &b;
+
+printf("value = %d\n", *c);
+printf("address of pointer = %d\n", &c);
+printf("address of memory pointed by pointer c = %d\n", c);
+printf("address of a = %d\n", &a);
+printf("address of b = %d\n", &b);    
+}
+
+int main(){
+    foo();
+    foo();
+}    
+~~~
+Hiển thị ra màn hình:
+~~~cpp
+value = 10
+address of pointer = 4227104
+address of memory pointed by pointer c = 6422284
+address of a = 6422284
+address of b = 6422280
+value = 20
+address of pointer = 4227104
+address of memory pointed by pointer c = 6422280
+address of a = 6422284
+address of b = 6422280
+~~~
 # Storage
 Trong C, biến `Static` được lưu ở `BSS` hoặc `DATA`.
 <p align="center">
