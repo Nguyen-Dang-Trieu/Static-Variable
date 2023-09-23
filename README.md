@@ -127,8 +127,7 @@ Static functions are restricted to the file in which they are created, and canno
 - It is used for reusing the same function name in other files.
 
 # Storage
-Trong C, biến Static được lưu ở BSS hoặc DATA.
+Trong C, biến `Static` được lưu ở `BSS` hoặc `DATA`.
 <p align="center">
-    <img src="./Images/Static.png" width="600px" alt="">
+    <img src="./Images/static_2.png" width="300px" alt="">
 </p>
-<img src="./Images/Static.png" alt="Image 1" width="200" height="150"/><img src="link_to_image_2.png" alt="Image 2" width="200" height="150"/>
